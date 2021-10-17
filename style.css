@@ -1,0 +1,31 @@
+body {
+  font-family: Lato;
+}
+/**** 
+* Temperature app
+*/
+.app-title {
+  display: grid;
+  justify-content: center;
+}
+
+.app-temperature .css-grid-box {
+  justify-self: center;
+}
+
+.app-temperature .css-grid {
+  display: grid;
+  grid-template-columns: 45% 10% 45%;
+}
+
+.app-temperature input {
+  display: block;
+  width: 100%;
+}
+
+.app-temperature {
+  background: lightblue;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  border: 1px solid red;
+}
